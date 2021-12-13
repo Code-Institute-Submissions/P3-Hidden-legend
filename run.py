@@ -50,19 +50,46 @@ def fountain():
     print("resembeling a bookcase and the different moon phases.")
     print("You realise that it is something meant to be found inside")
     print("this house.")
-    print("You decide that the symbols could have two meanings (1 or 2)")
+    print()
+    print("You decide that the symbols probably could mean two places (1 or 2)")
     print("1.) Head to the staircase")
     print("2.) Move on to the library")
     
 def library ():
     # 
     print("\nAfter taking your first steps inside the library you feel")
-    print("a cold shimmer moving down your spine and you know instantly")
+    print("a cold chill moving down your spine and you know instantly")
     print("that you are on the right place. You try to flip a switch")
     print("and to your relief a dim light turns on and you move towards")
-    print("the bookcase. When you starting to scan the titles ")
+    print("the bookcase. When you starting to scan the titles you see an")
+    print("anstronomy book an your curiosity takes over. When you start")
+    print("pulling the book out the picutre to the right changes and a")
+    print("old rusty lever emerges. You are now so close but you hesitate,")
+    print("is continuing really the right option? ")
+    print()
+    print("1.) Pull the lever")
+    print("2.) Back away and head home")
+
 
 def hiddenroom():
+    print("You hear a click when pulling down the lever and the wall")
+    print("inside the fireplace disappear. You decide that it's now or")
+    print("never and head inside! ")
+    print("After removing some cobwebs you turn on the flashlight and ")
+    print("start looking around, you stop when you see a picture of ")
+    print("your great-grandparents hanging above the chest.")
+    print("The light of your flashlight reveals a inscription ")
+    print("below the picture, so the family legend was true!?")
+    print(" -- When the planets are in alignment an important choice will ")
+    print("be clear. Always remember, blood is thicker than water. --")
+    print("You brush of the dust on the chest and two keyholes is revealed ")
+    print("with two images above. The one to the left displays a heart ")
+    print("that are being stabbed by two daggers, the one to the right")
+    print("shows a blowing leaf with a crown attached to the stem.")
+    print()
+    print("Which one could lead to the [lname] treasure?")
+    print("1.) The blowing leaf")
+    print("2.) The heart")
 
 def treasure(): 
 
