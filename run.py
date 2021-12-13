@@ -5,6 +5,21 @@
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
 import time
+import os
+import sys
+
+
+def clear_terminal():
+    """
+    clears the terminal from the information existing before.
+    """
+    os.system("clear")
+
+def game_over():
+    """
+    When the player don't want to continue playing the game
+    """
+    sys.exit()
 
 
 def play_game():
@@ -37,21 +52,30 @@ def play_game():
 
     print("Somewhere behind these walls lies the answer to the")
     print("legend about the family treasure. Are you ready to ")
-    print("find the truth? (1 or 2)")
+    print("find the truth? (1 or 2):")
     print()
-    print("= 1 = Hell yeah!")
-    print("= 2 =  No to much preasure..")
+    print("- 1 - Hell yeah!")
+    print("- 2 -  No to much preasure..")
 
     answer = input("").lower().strip()
+
+    # Validation input
     while answer not in "1" and answer not in "2":
         print("You have to make a choice, please try again")
         answer = input("").lower().strip()
-    if answer in "1":
+        continue
+    if answer == "1":
+        clear_terminal()
         print("Such a good answer, there is no time like the present!")
         global fname
         fname = input("What is your first name? \n")
         global lname
         lname = input("What is your last name? \n")
+        print(f"Hello {fname} {lname}, we have been waiting for you..")
+    elif answer == "2":
+        clear_terminal()
+        print("Are you really sure? You will be missed..")
+        game_over()
 
 
 play_game()
@@ -62,6 +86,7 @@ def introduction():
     Introducing a storyline for the player where they have the,
     opportunity to chose to embark on the adventure
     """
+    clear_terminal()
     print("\nGrowing up you never knew much about your family history")
     print("and that was why you were surprised to find a suspicious")
     print("envelope in the mail a couple of weeks ago.")
