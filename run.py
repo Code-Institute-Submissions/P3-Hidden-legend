@@ -13,27 +13,32 @@ def play_game():
     Works like a homepage. This function works on a
     global scale.
     """
-    print('''\033[94m
+
+    print('''\033[31m
+     =============================================================
                                   ___
                               ___(___)_______________
                         ______|                     |______
-                      /       |                     |      \
+                      |       |                     |      |
                     _|_______ |_____________________|_______|_
                    |__________________________________________|
                     | ===================================== |
-             ´´´/´´´|   _    _       _   _       _   _      |
-           ´__/__/__|  |_|  |_|     |_| |_|     |_| |_|     |
-        |´ __/ __/__|  |_|  |_|    _________    |_| |_|     |
+          __________|   _    _       _   _       _   _      |
+         /__/__/__/_|  |_|  |_|     |_| |_|     |_| |_|     |
+        /__/__/__/__|  |_|  |_|    _________    |_| |_|     |
         |===========|              |   /   |                |
         |__|__|__|__|              |___/___|                |
         |__|__|__|__|=============|_________|===============|
-        |__|__|__|__|____________|___________|______________|
+        |___________|____________|___________|______________|
         ========================|_____________|=============|
+
+     ============================================================
     \033[0m\n''')
 
     print("Somewhere behind these walls lies the answer to the")
     print("legend about the family treasure. Are you ready to ")
-    print("find the truth?")
+    print("find the truth? (1 or 2)")
+    print()
     print("1.) Hell yeah!")
     print("2.) No to much preasure..")
 
@@ -47,6 +52,7 @@ def play_game():
         fname = input("What is your first name? \n")
         global lname
         lname = input("What is your last name? \n")
+
 
 play_game()
 
@@ -88,12 +94,12 @@ choicepresented()
 
 
 def start():
-    """"
+    """
     Gives the player their first choice which will affect their journey
-    """"
+    """
     print("\n The legend about this house has been passed down for")
     print("generations.")
-    print("The legend about the family chest that is hidden somewhere") 
+    print("The legend about the family chest that is hidden somewhere")
     print("inside the  has long been a subject for")
     print("discussion in the [lname] household.")
     print("")
