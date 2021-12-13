@@ -4,7 +4,7 @@
 
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
-import time
+"""import time"""
 import os
 import sys
 
@@ -15,10 +15,12 @@ def clear_terminal():
     """
     os.system("clear")
 
+
 def game_over():
     """
     When the player don't want to continue playing the game
     """
+    print("Hopefully we will get the chance to meet again..")
     sys.exit()
 
 
@@ -53,9 +55,11 @@ def play_game():
     print("Somewhere behind these walls lies the answer to the")
     print("legend about the family treasure. Are you ready to ")
     print("find the truth? (1 or 2):")
-    print()
+    print("--------------------")
     print("- 1 - Hell yeah!")
     print("- 2 -  No to much preasure..")
+    print("---------------------")
+    print()
 
     answer = input("").lower().strip()
 
@@ -78,13 +82,10 @@ def play_game():
         game_over()
 
 
-play_game()
-
-
 def introduction():
     """
     Introducing a storyline for the player where they have the,
-    opportunity to chose to embark on the adventure
+    opportunity to choose to embark on the adventure
     """
     clear_terminal()
     print("\nGrowing up you never knew much about your family history")
@@ -95,15 +96,18 @@ def introduction():
     print("was the the picture drawn at the bottom of the page.")
     print("It was a family chest with a heart pierced by two daggers. ")
     print()
+    print("-----------------------------------------------------------")
+    print()
     print("You took a look at the envelope again, still confused with why")
     print("this was sent to you. With frustration you threw the piece of")
     print("paper into the fire and a watermark became visible! You began")
     print("to try to rescue the paper from the fire and while looking at")
-    print("it you saw an adress. The plot thickens, should you go? ")
-    print()
+    print("it you saw an adress. This might be the answer to the family ")
+    print("legend..")
+    print("-------------------------------")
     print("1.) No time to loose lets go!")
     print("2.) This adventure is not meant for me..")
-    print()
+    print("------------------------------------------")
 
 
 def choicepresented():
@@ -113,7 +117,7 @@ def choicepresented():
 
     return choice
 
-
+play_game()
 introduction()
 choicepresented()
 
