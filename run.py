@@ -6,6 +6,7 @@
 
 import time
 
+
 def play_game():
     """
     This function is called when you start up the game.
@@ -47,7 +48,8 @@ def play_game():
         global lname
         lname = input("What is your last name? \n")
 
-playgame()
+play_game()
+
 
 def introduction():
     """
@@ -72,6 +74,7 @@ def introduction():
     print("2.) This adventure is not meant for me..")
     print()
 
+
 def choicepresented():
     choice = ""
     while choice != "1" and choice != "2":
@@ -95,6 +98,7 @@ def start():
     print("discussion in the [lname] household.")
     print("")
 
+
 def greenhouse():
     """
     """
@@ -111,6 +115,7 @@ def greenhouse():
     print("What will be your choice? (1 or 2)")
     print("1.) Staircase")
     print("2.) Fountain")
+
 
 def fountain():
     """
@@ -130,7 +135,8 @@ def fountain():
     print("You decide that the symbols could mean two places (1 or 2)")
     print("1.) Head to the staircase")
     print("2.) Move on to the library")
-    
+
+
 def library():
     """
     """
@@ -170,6 +176,7 @@ def hiddenroom():
     print("1.) The blowing leaf")
     print("2.) The heart")
 
+
 def treasure():
     """
     """
@@ -179,6 +186,7 @@ def treasure():
     print("your pockets with the gold you see a red light beaming")
     print("from the lid. You have no time to think before you get")
     print("sucked inside the chest and all is black")
+
 
 def spirits():
     """
@@ -190,5 +198,6 @@ def spirits():
     print("manages to free the souls of your grandparents, a warm ")
     print("feeling replaces the cold you had before. Finally the curse")
     print("is over!")
+
 
 print("\n Hi")
