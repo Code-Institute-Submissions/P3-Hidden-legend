@@ -23,9 +23,11 @@ def choiceofpath() :
     path = "" 
     while path != "1" and path != "2": 
         path = input ("which choice will you make? (1 or 2): ")
-        
+
     return path
+
 introduction()
+choiceofpath()
 
 
 def start():
