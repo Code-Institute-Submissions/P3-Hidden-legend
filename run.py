@@ -1,9 +1,50 @@
-# name: Madelene Eriksson 
+# developer: Madelene Eriksson 
 # description: Text-based mystery adventure game 
+# Name: 
 
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
 import time 
+
+def play_game(): 
+    """
+    This function is called when you start up the game.
+    Works like a homepage. This function works on a 
+    global scale.
+    """
+    print(
+                                 ___
+                             ___(___)_______________
+                        ______|                     |______
+                      /       |                     |      \
+                    _|_______ |_____________________|_______|_
+                   |__________________________________________|
+                    | ===================================== |
+             ´´´/´´´|   _    _       _   _       _   _      |
+           ´__/__/__|  |_|  |_|     |_| |_|     |_| |_|     |
+        |´ __/ __/__|  |_|  |_|    _________    |_| |_|     |
+        |===========|              |   /   |                |
+        |__|__|__|__|              |___/___|                |
+        |__|__|__|__|=============|_________|===============|   
+        |__|__|__|__|____________|___________|______________|
+        ========================|_____________|=============|
+    )
+    print("Somewhere behind these walls lies the answer to the")
+    print("legend about the family treasure. Are you ready to ")
+    print("find the truth?")
+    print("1.) Hell yeah!")
+    print("2.) No to much preasure..")
+
+    answer = input ("").lower().strip()
+    while answer not in 1 and answer not in 2:
+        print("You have to make a choice, please try again")
+        answer = input("").lower().strip()
+    if answer in 1: 
+        print("Such a good answer, there is no time like the present!")
+        global fname 
+        fname = input("What is your first name? \n")
+        global lname
+        lname = input("What is your last name? \n")
 
 
 
