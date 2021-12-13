@@ -2,6 +2,11 @@
 # description: Text-based mystery adventure game 
 
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
+
+import time 
+
+
+
 def introduction(): 
     #Introducing a storyline for the player where they have the, 
     #opportunity to chose to embark on the adventure
@@ -13,6 +18,9 @@ def introduction():
     print("was the the picture drawn in the bottom of the page.")
     print("It was a family chest with a heart pierced by two daggers. ")
     print()
+
+introduction()
+
 
 def start():
     # Gives the player their first choice which will affect their journey 
@@ -107,5 +115,5 @@ def spirits():
     print("manages to free the souls of your grandparents, a warm ")
     print("feeling replaces the cold you had before. Finally the curse")
     print("is over!")
-    
+
 print("\n Hi")
