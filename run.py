@@ -92,6 +92,12 @@ def hiddenroom():
     print("2.) The heart")
 
 def treasure(): 
+    print("You decide to go with the blowing leaf and to your ")
+    print("excitement you open the chest and finds it containing")
+    print("more gold then you ever seen. As you start to fill ")
+    print("your pockets with the gold you see a red light beaming")
+    print("from the lid. You have no time to think before you get")
+    print("sucked inside the chest and all is black")
 
 def spirits(): 
 print("\n Hi")
