@@ -1,5 +1,6 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
+# name: Madelene Eriksson 
+# description: Text-based mystery adventure game 
+
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 def introduction(): 
     #Introducing a storyline for the player where they have the, 
@@ -11,6 +12,7 @@ def introduction():
     print("but the thing that you couldn't shake from your mind")
     print("was the the picture drawn in the bottom of the page.")
     print("It was a family chest with a heart pierced by two daggers. ")
+    print()
 
 def start():
     # Gives the player their first choice which will affect their journey 
@@ -52,8 +54,13 @@ def fountain():
     print("1.) Head to the staircase")
     print("2.) Move on to the library")
     
-
 def library ():
+    # 
+    print("\nAfter taking your first steps inside the library you feel")
+    print("a cold shimmer moving down your spine and you know instantly")
+    print("that you are on the right place. You try to flip a switch")
+    print("and to your relief a dim light turns on and you move towards")
+    print("the bookcase. When you starting to scan the titles ")
 
 def hiddenroom():
 
