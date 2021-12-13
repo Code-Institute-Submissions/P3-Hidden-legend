@@ -7,7 +7,7 @@ import time
 
 
 
-def introduction(): 
+def introduction() : 
     #Introducing a storyline for the player where they have the, 
     #opportunity to chose to embark on the adventure
     print("\nGrowing up you never knew much about your family history")
@@ -19,6 +19,12 @@ def introduction():
     print("It was a family chest with a heart pierced by two daggers. ")
     print()
 
+def choiceofpath() : 
+    path = "" 
+    while path != "1" and path != "2": 
+        path = input ("which choice will you make? (1 or 2): ")
+        
+    return path
 introduction()
 
 
