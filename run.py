@@ -34,6 +34,30 @@ def greenhouse():
     print("What will be your choice? (1 or 2)")
     print("1.) Staircase")
     print("2.) Fountain")
+
+def fountain(): 
+    # 
+    print("You take a couple of steps forward with the heart pumping")
+    print("in your chest. The sound came from underneath a large box")
+    print("placed next to the fountain, after taking a deep breath") 
+    print(" you decide to kick the box and a rat trapped underneath")
+    print("makes you jump. When you calm down you see some types of symbols")
+    print("engraved in the stone. Next to it you find a strange looking key.")
+    print("After taking the key you take a look on the symbols on the ground.")
+    print("You remove the mosss and you suddenly see something")
+    print("resembeling a bookcase and the different moon phases.")
+    print("You realise that it is something meant to be found inside")
+    print("this house.")
+    print("You decide that the symbols could have two meanings (1 or 2)")
+    print("1.) Head to the staircase")
+    print("2.) Move on to the library")
     
 
+def library ():
+
+def hiddenroom():
+
+def treasure(): 
+
+def spirits(): 
 print("\n Hi")
