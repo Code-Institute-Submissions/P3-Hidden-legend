@@ -88,7 +88,7 @@ def introduction():
     opportunity to choose to embark on the adventure
     """
     clear_terminal()
-    print("\nGrowing up the famous treasure von {lname} was all you could")
+    print(f"Growing up the famous treasure von {lname} was all you could")
     print("here about. But when you asked where it was you never")
     print("got an answer. All they said was --you will find out")
     print("in good ol' time-- ")
@@ -103,10 +103,11 @@ def introduction():
     print("When you turned the envelope you could see an adress on the back.")
     print("This adress might be the answer to the family legend..")
     print()
-    print("-----------------------------------------------")
+    print("---------------------------------------")
     print("-- 1 --  No time to loose lets go!")
     print("-- 2 -- This adventure is not meant for me..")
-    print("-----------------------------------------------")
+    print("---------------------------------------")
+    print()
 
 
 def choicepresented():
@@ -125,12 +126,21 @@ def start():
     """
     Gives the player their first choice which will affect their journey
     """
-    print("\n The legend about this house has been passed down for")
-    print("generations.")
-    print("The legend about the family chest that is hidden somewhere")
-    print("inside the  has long been a subject for")
-    print("discussion in the [lname] household.")
-    print("")
+    print(f"\n After a couple of hours of traveling {fname} was standing")
+    print("infront of a huge badly maintained mansion. So this was the")
+    print(f" famous von {lname} manor. {fname} moved up the stairs and ")
+    print("pushed down the door handle. It worked!")
+    print(f"{fname} walked inside and was overwhelmed by the interior.")
+    print("It was such a beautiful place, why did our family ever leave!?")
+    print()
+    print("There were two different doors that stood out, one leading to the")
+    print("greenhouse and the other to the library.)
+    print("---------------------------------------")
+    print("What will be your choice? (1 or 2)")
+    print("-- 1 -- Greenhouse")
+    print("-- 2 -- Library")
+    print("---------------------------------------")
+    print()
 
 
 def greenhouse():
@@ -146,9 +156,12 @@ def greenhouse():
     print("to turn around you see something move next to the fountain.")
     print("You can either continue and make your way to the staircase or")
     print(" investigate what moved next to the fountain.")
+    print("---------------------------------------")
     print("What will be your choice? (1 or 2)")
-    print("1.) Staircase")
-    print("2.) Fountain")
+    print("-- 1 -- Staircase")
+    print("-- 2 -- Fountain")
+    print("---------------------------------------")
+    print()
 
 
 def fountain():
@@ -164,11 +177,14 @@ def fountain():
     print("You remove the mosss and you suddenly see something")
     print("resembeling a bookcase and the different moon phases.")
     print("You realise that it is something meant to be found inside")
-    print("this house.")
+    print(f"this house. {fname} decides that the symbol could only")
+    print(" mean two places.")
+    print("---------------------------------------")
+    print("What will be your choice? (1 or 2)")
+    print("-- 1 -- Head to the staircase")
+    print("-- 2 -- Move on to the library")
+    print("---------------------------------------")
     print()
-    print("You decide that the symbols could mean two places (1 or 2)")
-    print("1.) Head to the staircase")
-    print("2.) Move on to the library")
 
 
 def library():
@@ -183,9 +199,11 @@ def library():
     print("pulling the book out the picutre to the right changes and a")
     print("old rusty lever emerges. You are now so close but you hesitate,")
     print("is continuing really the right option? ")
-    print()
-    print("1.) Pull the lever")
-    print("2.) Back away and head home")
+    print("---------------------------------------")
+    print("What will be your choice? (1 or 2)")
+    print("-- 1 -- Pull the lever")
+    print("-- 2 -- Back away and head home")
+    print("---------------------------------------")
 
 
 def hiddenroom():
@@ -199,16 +217,19 @@ def hiddenroom():
     print("your great-grandparents hanging above the chest.")
     print("The light of your flashlight reveals a inscription ")
     print("below the picture, so the family legend was true!?")
+    print()
     print(" -- When the planets are in alignment an important choice will ")
     print("be clear. Always remember, blood is thicker than water. --")
+    print()
     print("You brush of the dust on the chest and two keyholes is revealed ")
     print("with two images above. The one to the left displays a heart ")
     print("that are being pierced by two daggers, the one to the right")
     print("shows a blowing leaf with a crown attached to the stem.")
-    print()
-    print("Which one could lead to the [lname] treasure?")
-    print("1.) The blowing leaf")
-    print("2.) The heart")
+    print("---------------------------------------")
+    print(f"Which one could lead to the {lname} treasure? (1 or 2)")
+    print("-- 1 -- The blowing leaf")
+    print("-- 2 -- The heart")
+    print("---------------------------------------")
 
 
 def treasure():
@@ -220,6 +241,7 @@ def treasure():
     print("your pockets with the gold you see a red light beaming")
     print("from the lid. You have no time to think before you get")
     print("sucked inside the chest and all is black")
+    game_over
 
 
 def spirits():
@@ -232,6 +254,7 @@ def spirits():
     print("manages to free the souls of your grandparents, a warm ")
     print("feeling replaces the cold you had before. Finally the curse")
     print("is over!")
+    game_over
 
 
 print("\n Hi")
