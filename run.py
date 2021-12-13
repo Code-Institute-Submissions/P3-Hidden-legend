@@ -1,6 +1,6 @@
 # developer: Madelene Eriksson
 # description: Text-based mystery adventure game
-# name:
+# name: Secret Legend
 
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
@@ -117,6 +117,7 @@ def choicepresented():
 
     return choice
 
+
 play_game()
 introduction()
 choicepresented()
@@ -134,7 +135,7 @@ def start():
     print("It was such a beautiful place, why did our family ever leave?")
     print()
     print("There were two different doors that stood out, one leading to the")
-    print("greenhouse and the other to the library.)
+    print("greenhouse and the other to the library.")
     print("---------------------------------------")
     print("What will be your choice? (1 or 2)")
     print("-- 1 -- Greenhouse")
