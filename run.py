@@ -84,7 +84,7 @@ def hiddenroom():
     print("be clear. Always remember, blood is thicker than water. --")
     print("You brush of the dust on the chest and two keyholes is revealed ")
     print("with two images above. The one to the left displays a heart ")
-    print("that are being stabbed by two daggers, the one to the right")
+    print("that are being pierced by two daggers, the one to the right")
     print("shows a blowing leaf with a crown attached to the stem.")
     print()
     print("Which one could lead to the [lname] treasure?")
@@ -100,4 +100,12 @@ def treasure():
     print("sucked inside the chest and all is black")
 
 def spirits(): 
+    print("You decide to go with the heart piercied with two daggers ")
+    print("and as you turn around the key you find the chest eampty. ")
+    print("You try to hide your disapointment and are about to leave ")
+    print("when you see a blue light beam from the lid. You have ")
+    print("manages to free the souls of your grandparents, a warm ")
+    print("feeling replaces the cold you had before. Finally the curse")
+    print("is over!")
+    
 print("\n Hi")
