@@ -1,6 +1,6 @@
 # developer: Madelene Eriksson
 # description: Text-based mystery adventure game
-# Name:
+# name:
 
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
@@ -39,14 +39,14 @@ def play_game():
     print("legend about the family treasure. Are you ready to ")
     print("find the truth? (1 or 2)")
     print()
-    print("1.) Hell yeah!")
-    print("2.) No to much preasure..")
+    print("= 1 = Hell yeah!")
+    print("= 2 =  No to much preasure..")
 
     answer = input("").lower().strip()
-    while answer not in 1 and answer not in 2:
+    while answer not in "1" and answer not in "2":
         print("You have to make a choice, please try again")
         answer = input("").lower().strip()
-    if answer in 1:
+    if answer in "1":
         print("Such a good answer, there is no time like the present!")
         global fname
         fname = input("What is your first name? \n")
