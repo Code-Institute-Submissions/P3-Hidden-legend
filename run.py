@@ -24,11 +24,11 @@ def introduction() :
     print("to try to rescue the paper from the fire and while looking at")
     print("it you saw an adress. The plot thickens, should you go? ")
     print()
-    print("1.) No time to lose lets go!")
-    print("2.) Adventure is not for me, if they really want me to go")
-    print("they would send another letter.")
+    print("1.) No time to loose lets go!")
+    print("2.) This adventure is not meant for me..")
+    print()
 
-def choice.presented() : 
+def choicepresented() : 
     choice = "" 
     while choice != "1" and choice != "2": 
         choice = input ("which choice will you make? (1 or 2): ")
@@ -37,7 +37,7 @@ def choice.presented() :
 
 
 introduction()
-choice.presented()
+choicepresented()
 
 
 def start():
