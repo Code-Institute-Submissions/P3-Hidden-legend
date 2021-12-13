@@ -13,21 +13,31 @@ def introduction() :
     print("\nGrowing up you never knew much about your family history")
     print("and that was why you were surprised to find a suspicious")
     print("envelope in the mail a couple of weeks ago.")
-    print("The information inside it was confusing you even more")
+    print("The information inside it didn't make sense for you")
     print("but the thing that you couldn't shake from your mind")
-    print("was the the picture drawn in the bottom of the page.")
+    print("was the the picture drawn at the bottom of the page.")
     print("It was a family chest with a heart pierced by two daggers. ")
     print()
+    print("You took a look at the envelope again, still confused with why")
+    print("this was sent to you. With frustration you threw the piece of")
+    print("paper into the fire and a watermark became visible! You began")
+    print("to try to rescue the paper from the fire and while looking at")
+    print("it you saw an adress. The plot thickens, should you go? ")
+    print()
+    print("1.) No time to lose lets go!")
+    print("2.) Adventure is not for me, if they really want me to go")
+    print("they would send another letter.")
 
-def choiceofpath() : 
-    path = "" 
-    while path != "1" and path != "2": 
-        path = input ("which choice will you make? (1 or 2): ")
+def choice.presented() : 
+    choice = "" 
+    while choice != "1" and choice != "2": 
+        choice = input ("which choice will you make? (1 or 2): ")
 
-    return path
+    return choice
+
 
 introduction()
-choiceofpath()
+choice.presented()
 
 
 def start():
