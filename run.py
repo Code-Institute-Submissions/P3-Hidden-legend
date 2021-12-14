@@ -64,6 +64,7 @@ def play_game():
     answer = input("").lower().strip()
 
     # Validation input
+    answer = ""
     while answer not in "1" and answer not in "2":
         print("You have to make a choice, please try again")
         answer = input("").lower().strip()
@@ -76,6 +77,7 @@ def play_game():
         global lname
         lname = input("What is your last name? \n")
         print(f"Hello {fname} {lname}, we have been waiting for you..")
+        introduction()
     elif answer == "2":
         clear_terminal()
         print("Are you really sure? You will be missed..")
@@ -109,18 +111,34 @@ def introduction():
     print("---------------------------------------")
     print()
 
+    # Validation input
+    answer = "" 
+    while answer not in "1" and answer not in "2":
+        print("You have to make a choice, please try again")
+        answer = input("").lower().strip()
+        continue
+    if answer == "1":
+        clear_terminal()
+        print("Perfect!")
+        start()
+    elif answer == "2":
+        clear_terminal()
+        print("Are you really sure? You will be missed..")
+        game_over()
 
+
+"""
 def choicepresented():
     choice = ""
     while choice != "1" and choice != "2":
         choice = input("which choice will you make? (1 or 2): ")
 
     return choice
-
+"""
 
 play_game()
 introduction()
-choicepresented()
+"""choicepresented()"""
 
 
 def start():
@@ -142,6 +160,21 @@ def start():
     print("-- 2 -- Library")
     print("---------------------------------------")
     print()
+
+        # Validation input
+    answer = "" 
+    while answer not in "1" and answer not in "2":
+        print("You have to make a choice, please try again")
+        answer = input("").lower().strip()
+        continue
+    if answer == "1":
+        clear_terminal()
+        print("Oh really, interesting choice..")
+        greenhouse()
+    elif answer == "2":
+        clear_terminal()
+        print("Oh I see, interesting choice..")
+        library()
 
 
 def greenhouse():
