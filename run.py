@@ -112,7 +112,7 @@ def introduction():
     print()
 
     # Validation input
-    answer = "" 
+    answer = ""
     while answer not in "1" and answer not in "2":
         print("You have to make a choice, please try again")
         answer = input("").lower().strip()
@@ -161,8 +161,8 @@ def start():
     print("---------------------------------------")
     print()
 
-        # Validation input
-    answer = "" 
+    # Validation input
+    answer = ""
     while answer not in "1" and answer not in "2":
         print("You have to make a choice, please try again")
         answer = input("").lower().strip()
@@ -179,6 +179,8 @@ def start():
 
 def greenhouse():
     """
+    Continuing the storyline about the family chest together 
+    with a validation input
     """
     print("You navigate your way inside the greenhouse,")
     print("avoiding all the debris laying on the ground.")
@@ -196,6 +198,25 @@ def greenhouse():
     print("-- 2 -- Fountain")
     print("---------------------------------------")
     print()
+
+    # Validation input
+    answer = ""
+    while answer not in "1" and answer not in "2":
+        print("You have to make a choice, please try again")
+        answer = input("").lower().strip()
+        continue
+    if answer == "1":
+        clear_terminal()
+        print("You start to climb the staircase and as you are making") 
+        print("your way up you feel the stairs break underneath you.")
+        print("You fall down and breaks both of your legs, you")
+        print("know that you cannot continue and your adventure")
+        print("is officially over. ")
+        game_over()
+    elif answer == "2":
+        clear_terminal()
+        print("You are not the scared type I see")
+        fountain()
 
 
 def fountain():
@@ -220,6 +241,25 @@ def fountain():
     print("---------------------------------------")
     print()
 
+    # Validation input
+    answer = ""
+    while answer not in "1" and answer not in "2":
+        print("You have to make a choice, please try again")
+        answer = input("").lower().strip()
+        continue
+    if answer == "1":
+        clear_terminal()
+        print("You start to climb the staircase and as you are making") 
+        print("your way up you feel the stairs break underneath you.")
+        print("You fall down and breaks both of your legs, you")
+        print("know that you cannot continue and your adventure")
+        print("is officially over. ")
+        game_over()
+    elif answer == "2":
+        clear_terminal()
+        print("You really got the hang of this!")
+        library()
+
 
 def library():
     """
@@ -238,6 +278,21 @@ def library():
     print("-- 1 -- Pull the lever")
     print("-- 2 -- Back away and head home")
     print("---------------------------------------")
+
+    # Validation input
+    answer = ""
+    while answer not in "1" and answer not in "2":
+        print("You have to make a choice, please try again")
+        answer = input("").lower().strip()
+        continue
+    if answer == "1":
+        clear_terminal()
+        print("Good choice, let's finally find out the truth!")
+        hiddenroom()
+    elif answer == "2":
+        clear_terminal()
+        print("Well not every one can be the brave one.. ")
+        game_over()
 
 
 def hiddenroom():
@@ -265,6 +320,21 @@ def hiddenroom():
     print("-- 2 -- The heart")
     print("---------------------------------------")
 
+    # Validation input
+    answer = ""
+    while answer not in "1" and answer not in "2":
+        print("You have to make a choice, please try again")
+        answer = input("").lower().strip()
+        continue
+    if answer == "1":
+        clear_terminal()
+        print("Good choice, let's finally find out the truth!")
+        treasure()
+    elif answer == "2":
+        clear_terminal()
+        print("Well not every one can be the brave one.. ")
+        spirits()
+
 
 def treasure():
     """
@@ -291,4 +361,4 @@ def spirits():
     game_over
 
 
-print("\n Hi")
+
