@@ -9,14 +9,6 @@ import os
 import sys
 
 
-def lname():
-    lname.upper()
-
-
-def fname():
-    fname.upper()
-
-
 def clear_terminal():
     """
     clears the terminal from the information existing before.
