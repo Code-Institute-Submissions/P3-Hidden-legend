@@ -64,7 +64,6 @@ def play_game():
     answer = input("").lower().strip()
 
     # Validation input
-    answer = ""
     while answer not in "1" and answer not in "2":
         print("You have to make a choice, please try again")
         answer = input("").lower().strip()
@@ -80,8 +79,7 @@ def play_game():
         introduction()
     elif answer == "2":
         clear_terminal()
-        print("Are you really sure? You will be missed..")
-        game_over()
+        print("Oh I see, that was to bad you will be missed..")
 
 
 def introduction():
@@ -112,7 +110,7 @@ def introduction():
     print()
 
     # Validation input
-    answer = ""
+    answer = input("").lower().strip()
     while answer not in "1" and answer not in "2":
         print("You have to make a choice, please try again")
         answer = input("").lower().strip()
@@ -136,8 +134,8 @@ def choicepresented():
     return choice
 """
 
-play_game()
-introduction()
+"""play_game()
+introduction()"""
 """choicepresented()"""
 
 
@@ -162,7 +160,7 @@ def start():
     print()
 
     # Validation input
-    answer = ""
+    answer = input("").lower().strip()
     while answer not in "1" and answer not in "2":
         print("You have to make a choice, please try again")
         answer = input("").lower().strip()
@@ -200,7 +198,7 @@ def greenhouse():
     print()
 
     # Validation input
-    answer = ""
+    answer = input("").lower().strip()
     while answer not in "1" and answer not in "2":
         print("You have to make a choice, please try again")
         answer = input("").lower().strip()
@@ -242,7 +240,7 @@ def fountain():
     print()
 
     # Validation input
-    answer = ""
+    answer = input("").lower().strip()
     while answer not in "1" and answer not in "2":
         print("You have to make a choice, please try again")
         answer = input("").lower().strip()
@@ -280,7 +278,7 @@ def library():
     print("---------------------------------------")
 
     # Validation input
-    answer = ""
+    answer = input("").lower().strip()
     while answer not in "1" and answer not in "2":
         print("You have to make a choice, please try again")
         answer = input("").lower().strip()
@@ -321,7 +319,7 @@ def hiddenroom():
     print("---------------------------------------")
 
     # Validation input
-    answer = ""
+    answer = input("").lower().strip()
     while answer not in "1" and answer not in "2":
         print("You have to make a choice, please try again")
         answer = input("").lower().strip()
@@ -361,4 +359,4 @@ def spirits():
     game_over
 
 
-
+play_game()
