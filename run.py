@@ -1,6 +1,6 @@
 # developer: Madelene Eriksson
 # description: Text-based mystery adventure game
-# name: Secret Legend
+# name: Hidden Legend
 
 # Write your code to expect a terminal of 80 characters wide and 24 rows high
 
