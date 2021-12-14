@@ -145,7 +145,6 @@ def introduction():
         print("---------------------------------------")
         print("Oh I see, well an adventure is not for all")
         print("---------------------------------------")
-        
 
 
 def start():
@@ -192,7 +191,7 @@ def start():
         print("Hopefully my choices tomorrow is better.")
         print("---------------------------------------")
         game_over()
-      
+
 
 def greenhouse():
     """
@@ -305,7 +304,7 @@ def library():
     print()
     print("You start to pull the book out when the picture to the right ")
     print("changes and an old rusty lever emerges. You are now so close")
-    print("but you hesitate, is continuing really the right option?") 
+    print("but you hesitate, is continuing really the right option?")
     print("---------------------------------------")
     print("What will be your choice? (1 or 2)")
     print("-- 1 -- Pull the lever")
